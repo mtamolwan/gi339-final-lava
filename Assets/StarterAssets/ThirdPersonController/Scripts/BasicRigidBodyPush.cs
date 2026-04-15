@@ -8,6 +8,24 @@ public class BasicRigidBodyPush : MonoBehaviour
 
 	private void OnControllerColliderHit(ControllerColliderHit hit)
 	{
+		TimedPlatform timedPlatform = hit.collider.GetComponent<TimedPlatform>();
+		if (timedPlatform != null)
+		{
+			timedPlatform.Activate();
+		}
+
+		ReactorButton reactorButton = hit.collider.GetComponent<ReactorButton>();
+		if (reactorButton != null)
+		{
+			reactorButton.Activate();
+		}
+
+		EndGameCanvasTrigger endGameCanvasTrigger = hit.collider.GetComponent<EndGameCanvasTrigger>();
+		if (endGameCanvasTrigger != null)
+		{
+			endGameCanvasTrigger.Activate();
+		}
+
 		if (canPush) PushRigidBodies(hit);
 	}
 
