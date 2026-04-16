@@ -493,6 +493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas_GameOver
       objectReference: {fileID: 0}
+    - target: {fileID: 7989704164712372136, guid: 4b7f5ce55c75cc34fb097dd590e68fba, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4965,6 +4969,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1350555685 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7989704164712372136, guid: 4b7f5ce55c75cc34fb097dd590e68fba, type: 3}
+  m_PrefabInstance: {fileID: 99030998}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1397112669
 GameObject:
   m_ObjectHideFlags: 0
@@ -6605,7 +6614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efe06dee00f5e4246aff465639ef78dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameOverManager
-  gameOverPanel: {fileID: 7989704164712372136, guid: 4b7f5ce55c75cc34fb097dd590e68fba, type: 3}
+  gameOverPanel: {fileID: 1350555685}
 --- !u!4 &2073308280
 Transform:
   m_ObjectHideFlags: 0
