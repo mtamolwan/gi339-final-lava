@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Prefab/Canvas_GameOver.prefab.meta
 guid: 4b7f5ce55c75cc34fb097dd590e68fba
+=======
+guid: fa7763f7b805b144280cdd932b441c1d
+>>>>>>> 08:Assets/StarterAssets/Environment/Prefabs/MainEnvironment08.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 
