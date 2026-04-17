@@ -7,47 +7,56 @@ public class NextLevelTrigger : MonoBehaviour
     [Tooltip("ใส่ชื่อ Scene ที่ต้องการไป (ถ้าว่างไว้จะไป Scene ถัดไปตามลำดับ Build Settings)")]
     public string sceneName = "";
 
+    private bool isLoading = false;
+
     private void OnCollisionEnter(Collision collision)
     {
-        // ตรวจสอบว่าผู้เล่นเป็นคนเหยียบ
         if (collision.gameObject.CompareTag("Player"))
         {
-            GoToNextScene();
+            Activate();
         }
     }
 
-    // หากต้องการใช้เป็น Trigger (เดินทะลุผ่านแล้วเปลี่ยนฉาก) ให้ใช้ฟังก์ชันนี้แทน
-    /*
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            GoToNextScene();
+            Activate();
         }
     }
-    */
 
-    void GoToNextScene()
+    public void Activate()
     {
-        if (!string.IsNullOrEmpty(sceneName))
+        if (isLoading)
         {
-            // ถ้าใส่ชื่อ Scene ไว้ใน Inspector ให้ไปตามชื่อนั้น
-            SceneManager.LoadScene(sceneName);
+            return;
         }
-        else
-        {
-            // ถ้าไม่ได้ใส่ชื่อไว้ ให้ไป Scene ลำดับถัดไปใน Build Settings (+1 จากปัจจุบัน)
-            int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
 
-            // ตรวจสอบก่อนว่ามี Scene ถัดไปไหม เพื่อป้องกัน Error
-            if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+        isLoading = GoToNextScene();
+    }
+
+    bool GoToNextScene()
+    {
+        if (!string.IsNullOrWhiteSpace(sceneName))
+        {
+            if (!Application.CanStreamedLevelBeLoaded(sceneName))
             {
-                SceneManager.LoadScene(nextSceneIndex);
+                Debug.LogWarning($"Scene '{sceneName}' ยังโหลดไม่ได้ ตรวจชื่อ Scene และ Build Settings อีกครั้ง");
+                return false;
             }
-            else
-            {
-                Debug.LogWarning("ไม่มี Scene ถัดไปใน Build Settings แล้วครับ!");
-            }
+
+            SceneManager.LoadScene(sceneName);
+            return true;
         }
+
+        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            SceneManager.LoadScene(nextSceneIndex);
+            return true;
+        }
+
+        Debug.LogWarning("ไม่มี Scene ถัดไปใน Build Settings แล้วครับ!");
+        return false;
     }
 }

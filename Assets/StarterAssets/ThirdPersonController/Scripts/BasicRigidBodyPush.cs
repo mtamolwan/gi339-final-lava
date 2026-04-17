@@ -26,6 +26,12 @@ public class BasicRigidBodyPush : MonoBehaviour
 			endGameCanvasTrigger.Activate();
 		}
 
+		NextLevelTrigger nextLevelTrigger = hit.collider.GetComponent<NextLevelTrigger>();
+		if (nextLevelTrigger != null)
+		{
+			nextLevelTrigger.Activate();
+		}
+
 		if (canPush) PushRigidBodies(hit);
 	}
 
