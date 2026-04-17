@@ -2492,8 +2492,8 @@ GameObject:
   - component: {fileID: 554650687}
   - component: {fileID: 554650686}
   - component: {fileID: 554650685}
-  - component: {fileID: 554650689}
   - component: {fileID: 554650688}
+  - component: {fileID: 554650689}
   m_Layer: 0
   m_Name: Platfrom (Next Level)
   m_TagString: Untagged
@@ -2624,10 +2624,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 554650683}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5da88ad99d4da06449b1b4ed8e5fe65e, type: 3}
+  m_Script: {fileID: 11500000, guid: d9e7d4f398050cc4ca6a5476af3a543b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NextLevel
-  nextLevelName: lvl_2_toilet
+  m_EditorClassIdentifier: Assembly-CSharp::NextLevelTrigger
+  sceneName: 
 --- !u!1 &567560310
 GameObject:
   m_ObjectHideFlags: 0
@@ -9880,6 +9880,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5168623173451879083, guid: 4b7f5ce55c75cc34fb097dd590e68fba, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6233763333916374025, guid: 4b7f5ce55c75cc34fb097dd590e68fba, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7728367656786366240, guid: 4b7f5ce55c75cc34fb097dd590e68fba, type: 3}
