@@ -11,10 +11,11 @@ public class BreakerSkillCheck : MonoBehaviour
     [Header("ตั้งค่าการกระเด็น")]
     public float knockbackStrength = 15f; 
 
-    [Header("💥 แสงสีเสียงตอนระเบิด")]
-    public GameObject explosionVFX; // ใส่ Prefab เอฟเฟคระเบิด
-    public AudioClip explosionSound; // ใส่ไฟล์เสียงระเบิด
-    private AudioSource audioSource; // ตัวเล่นเสียง
+    [Header("💥 แสงสีเสียง")]
+    public GameObject explosionVFX; 
+    public AudioClip explosionSound; 
+    public AudioClip successSound; // 🌟 เพิ่มช่องใส่เสียงซ่อมเสร็จ
+    private AudioSource audioSource; 
 
     [Header("เอฟเฟคไกด์นำทาง")]
     public GameObject sparkEffect; 
@@ -53,7 +54,6 @@ public class BreakerSkillCheck : MonoBehaviour
         targetZoneWidth = targetZoneRect.rect.width;
         RandomizeTargetZone();
 
-        // สร้างตัวเล่นเสียงให้อัตโนมัติ (จะได้ไม่ต้องไปกด Add Component เอง)
         audioSource = GetComponent<AudioSource>();
         if (audioSource == null) audioSource = gameObject.AddComponent<AudioSource>();
     }
@@ -119,31 +119,24 @@ public class BreakerSkillCheck : MonoBehaviour
         }
         else
         {
-            // --- พลาด! ---
             if (playerInput != null) playerInput.enabled = true;
             isGameActive = false;
             minigameUI.SetActive(false);
             if (minigameCamera != null) minigameCamera.SetActive(false);
             currentSuccesses = 0;
 
-            // ⚠️ สั่งระเบิดตู้ม!
             TriggerExplosion(); 
             StartCoroutine(ApplyKnockback());
         }
     }
 
-    // ⚠️ ฟังก์ชันระเบิด (ให้กำแพงกับดักมายืมใช้ได้ด้วย)
     public void TriggerExplosion()
     {
-        Debug.Log("ระเบิดตู้ม!");
-        
-        // 1. เล่นเสียง
         if (explosionSound != null && audioSource != null)
         {
             audioSource.PlayOneShot(explosionSound);
         }
 
-        // 2. เสกเอฟเฟคระเบิดตรงหน้าตู้ไฟ
         if (explosionVFX != null)
         {
             Instantiate(explosionVFX, transform.position, transform.rotation);
@@ -180,10 +173,18 @@ public class BreakerSkillCheck : MonoBehaviour
         if (playerInput != null) playerInput.enabled = true; 
         if (sparkEffect != null) sparkEffect.SetActive(false); 
 
+        // 🌟 เล่นเสียงตอนซ่อมสำเร็จ!
+        if (successSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(successSound);
+        }
+
         foreach (FlickeringLight light in lightsToFix)
         {
             if (light != null) light.StopFlickering();
         }
+        
+        Debug.Log("ไฟซ่อมเสร็จแล้ว!");
     }
 
     void RandomizeTargetZone()
