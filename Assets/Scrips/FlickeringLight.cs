@@ -30,4 +30,17 @@ public class FlickeringLight : MonoBehaviour
             yield return new WaitForSeconds(Random.Range(minWaitTime, maxWaitTime));
         }
     }
+    // เพิ่มส่วนนี้เข้าไปในสคริปต์ FlickeringLight นะครับ
+    public void StopFlickering()
+    {
+        // หยุดการกระพริบทั้งหมด
+        StopAllCoroutines(); 
+        
+        // ดึงคอมโพเนนต์ Light มาสั่งให้เปิดค้างไว้
+        Light myLight = GetComponent<Light>();
+        if (myLight != null)
+        {
+            myLight.enabled = true;
+        }
+    }
 }
