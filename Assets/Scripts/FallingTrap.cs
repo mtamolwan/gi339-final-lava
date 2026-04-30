@@ -29,7 +29,7 @@ public class FallingTrap : MonoBehaviour
         isFalling = true;
         yield return new WaitForSeconds(fallDelay);
         rb.isKinematic = false; 
-        rb.velocity = new Vector3(0, -20f, 0);
+        rb.linearVelocity = new Vector3(0, -20f, 0);
         Destroy(gameObject, 3f); 
     }
 }
