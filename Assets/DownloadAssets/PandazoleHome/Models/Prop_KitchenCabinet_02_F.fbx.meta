@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dc86245f0c82d4342b6fd5bc3fd2e2a2
+guid: 5b796fe42666e8c459623d84de17e341
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -105,5 +105,5 @@ AssetOrigin:
   productId: 203033
   packageName: Pandazole - Home interior lowpoly pack
   packageVersion: 1.0.0
-  assetPath: Assets/DownloadAssets/PandazoleHome/Models/Prop_Refrigerator_01.fbx
+  assetPath: Assets/DownloadAssets/PandazoleHome/Models/Prop_KitchenCabinet_02_F.fbx
   uploadId: 453028

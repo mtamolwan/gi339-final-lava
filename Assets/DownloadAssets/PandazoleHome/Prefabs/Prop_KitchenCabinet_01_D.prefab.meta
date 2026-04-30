@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8b6d4c650c7ffff4abdab2f2c79873d1
+guid: ec54cb597f178d546a3bbc89470415f0
 PrefabImporter:
   externalObjects: {}
   userData: 
@@ -10,5 +10,5 @@ AssetOrigin:
   productId: 203033
   packageName: Pandazole - Home interior lowpoly pack
   packageVersion: 1.0.0
-  assetPath: Assets/DownloadAssets/PandazoleHome/Prefabs/Prop_Refrigerator_01.prefab
+  assetPath: Assets/DownloadAssets/PandazoleHome/Prefabs/Prop_KitchenCabinet_01_D.prefab
   uploadId: 453028
