@@ -11522,7 +11522,6 @@ GameObject:
   - component: {fileID: 1248718622}
   - component: {fileID: 1248718621}
   - component: {fileID: 1248718620}
-  - component: {fileID: 1248718624}
   m_Layer: 0
   m_Name: Platfrom (37)
   m_TagString: Untagged
@@ -11623,18 +11622,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248718618}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1248718624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1248718618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 121f25674cf445346a3e5d7cc35b1c33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MovingPlatform
 --- !u!1 &1249699615
 GameObject:
   m_ObjectHideFlags: 0
@@ -14705,7 +14692,6 @@ GameObject:
   - component: {fileID: 1816124458}
   - component: {fileID: 1816124457}
   - component: {fileID: 1816124456}
-  - component: {fileID: 1816124460}
   m_Layer: 0
   m_Name: Platfrom (42)
   m_TagString: Untagged
@@ -14806,18 +14792,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1816124454}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1816124460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1816124454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 121f25674cf445346a3e5d7cc35b1c33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MovingPlatform
 --- !u!1001 &1836005113
 PrefabInstance:
   m_ObjectHideFlags: 0
