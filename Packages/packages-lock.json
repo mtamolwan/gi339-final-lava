@@ -10,7 +10,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
+<<<<<<< HEAD
       "version": "1.8.27",
+=======
+      "version": "1.8.28",
+>>>>>>> parent of 61bee7a (Merge branch 'main' of https://github.com/mtamolwan/gi339-final-lava)
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -100,8 +104,22 @@
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.6",
       "depth": 3,
+<<<<<<< HEAD
       "source": "registry",
       "dependencies": {},
+=======
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.postprocessing": {
+      "version": "3.5.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      },
+>>>>>>> parent of 61bee7a (Merge branch 'main' of https://github.com/mtamolwan/gi339-final-lava)
       "url": "https://packages.unity.com"
     },
     "com.unity.probuilder": {
@@ -171,7 +189,11 @@
       }
     },
     "com.unity.splines": {
+<<<<<<< HEAD
       "version": "2.8.2",
+=======
+      "version": "2.8.3",
+>>>>>>> parent of 61bee7a (Merge branch 'main' of https://github.com/mtamolwan/gi339-final-lava)
       "depth": 1,
       "source": "registry",
       "dependencies": {
