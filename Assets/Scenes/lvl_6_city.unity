@@ -556,6 +556,8 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
+  jitterSound: {fileID: 0}
+  jitterSoundVolume: 1
 --- !u!4 &93304768 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 995089265909935910, guid: 9477727aeac1cf84e95c8faa04d79303, type: 3}
@@ -2089,6 +2091,8 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
+  jitterSound: {fileID: 0}
+  jitterSoundVolume: 1
 --- !u!4 &359946435 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 995089265909935910, guid: 9477727aeac1cf84e95c8faa04d79303, type: 3}
@@ -3035,6 +3039,8 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
+  jitterSound: {fileID: 0}
+  jitterSoundVolume: 1
 --- !u!4 &531814545 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 995089265909935910, guid: 9477727aeac1cf84e95c8faa04d79303, type: 3}
@@ -3660,6 +3666,8 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
+  jitterSound: {fileID: 0}
+  jitterSoundVolume: 1
 --- !u!4 &708328441 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 995089265909935910, guid: 9477727aeac1cf84e95c8faa04d79303, type: 3}
@@ -4229,7 +4237,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 6b362435f141ca84bad184fd61283873, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.7
+  m_Volume: 0.316
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -6378,6 +6386,8 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
+  jitterSound: {fileID: 0}
+  jitterSoundVolume: 1
 --- !u!4 &1122209266 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8884498055708056954, guid: 784e980c1cf96344d9d04f01e2618d6b, type: 3}
@@ -7030,6 +7040,8 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
+  jitterSound: {fileID: 0}
+  jitterSoundVolume: 1
 --- !u!4 &1257444352 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 801088535811909204, guid: 9334802947a112d489eb0ad702ab585a, type: 3}
@@ -7420,6 +7432,8 @@ MonoBehaviour:
   jitterDuration: 0.2
   jitterSpeed: 20
   jitterAmount: 0.2
+  jitterSound: {fileID: 0}
+  jitterSoundVolume: 1
 --- !u!65 &1308501606
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8504,6 +8518,8 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
+  jitterSound: {fileID: 0}
+  jitterSoundVolume: 1
 --- !u!4 &1494346961 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 801088535811909204, guid: 9334802947a112d489eb0ad702ab585a, type: 3}
@@ -9164,6 +9180,8 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
+  jitterSound: {fileID: 0}
+  jitterSoundVolume: 1
 --- !u!4 &1614070668 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 801088535811909204, guid: 9334802947a112d489eb0ad702ab585a, type: 3}
@@ -9767,6 +9785,8 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
+  jitterSound: {fileID: 0}
+  jitterSoundVolume: 1
 --- !u!4 &1742873414 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8884498055708056954, guid: 784e980c1cf96344d9d04f01e2618d6b, type: 3}
@@ -10424,6 +10444,8 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
+  jitterSound: {fileID: 0}
+  jitterSoundVolume: 1
 --- !u!4 &1800120462 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 995089265909935910, guid: 9477727aeac1cf84e95c8faa04d79303, type: 3}
@@ -10778,6 +10800,56 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 794ca9ac3e34a6c42bd845432f87cd68, type: 3}
+--- !u!1 &1831208137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1831208139}
+  - component: {fileID: 1831208140}
+  m_Layer: 0
+  m_Name: EF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1831208139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831208137}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.5, y: 4.57965, z: 48.46}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1831208140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831208137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b691c0a4365bf604780562435456b753, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JitterObject
+  cooldownTime: 5
+  jitterDuration: 0.5
+  jitterSpeed: 50
+  jitterAmount: 0.1
+  jitterSound: {fileID: 8300000, guid: 0764170ca8f302b42ac43b3b8cfebffd, type: 3}
+  jitterSoundVolume: 0.1
 --- !u!1 &1841797616 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6609989364383139594, guid: 170303b77f7cf7b499262e592a3670de, type: 3}
@@ -11352,6 +11424,8 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
+  jitterSound: {fileID: 0}
+  jitterSoundVolume: 1
 --- !u!4 &2029959912 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 801088535811909204, guid: 9334802947a112d489eb0ad702ab585a, type: 3}
@@ -12011,6 +12085,8 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
+  jitterSound: {fileID: 0}
+  jitterSoundVolume: 1
 --- !u!4 &2141651352 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8884498055708056954, guid: 784e980c1cf96344d9d04f01e2618d6b, type: 3}
@@ -12442,3 +12518,4 @@ SceneRoots:
   - {fileID: 835869037}
   - {fileID: 837393614}
   - {fileID: 782254151}
+  - {fileID: 1831208139}

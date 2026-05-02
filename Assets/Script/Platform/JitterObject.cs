@@ -17,8 +17,30 @@ public class JitterObject : MonoBehaviour
     [Tooltip("ความแรง/ระยะทางการสั่น (ยิ่งเยอะยิ่งสั่นกว้าง)")]
     public float jitterAmount = 0.1f;
 
+    [Header("Audio Settings")]
+    [Tooltip("เสียงที่จะเล่นตอนวัตถุเริ่มกระตุก")]
+    public AudioClip jitterSound;
+
+    [Range(0f, 1f)]
+    [Tooltip("ความดังของเสียงตอนวัตถุกระตุก")]
+    public float jitterSoundVolume = 1.0f;
+
     private Vector3 originalPosition;
     private float timer;
+    private AudioSource audioSource;
+    private bool isJittering;
+
+    void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+
+        audioSource.playOnAwake = false;
+    }
 
     void Start()
     {
@@ -32,7 +54,7 @@ public class JitterObject : MonoBehaviour
         // นับถอยหลัง Cooldown
         timer -= Time.deltaTime;
 
-        if (timer <= 0)
+        if (timer <= 0 && !isJittering)
         {
             StartCoroutine(DoJitter());
             timer = cooldownTime; // รีเซ็ตเวลา Cooldown
@@ -41,6 +63,9 @@ public class JitterObject : MonoBehaviour
 
     IEnumerator DoJitter()
     {
+        isJittering = true;
+        PlayJitterSound();
+
         float elapsed = 0.0f;
 
         while (elapsed < jitterDuration)
@@ -59,5 +84,16 @@ public class JitterObject : MonoBehaviour
 
         // เมื่อจบการกระตุก ให้กลับไปตำแหน่งเดิมเป๊ะๆ
         transform.localPosition = originalPosition;
+        isJittering = false;
+    }
+
+    void PlayJitterSound()
+    {
+        if (audioSource == null || jitterSound == null)
+        {
+            return;
+        }
+
+        audioSource.PlayOneShot(jitterSound, jitterSoundVolume);
     }
 }
