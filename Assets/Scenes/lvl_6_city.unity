@@ -556,8 +556,6 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
-  jitterSound: {fileID: 0}
-  jitterSoundVolume: 1
 --- !u!4 &93304768 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 995089265909935910, guid: 9477727aeac1cf84e95c8faa04d79303, type: 3}
@@ -783,7 +781,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1090439333}
     m_Modifications:
     - target: {fileID: 578812310734390594, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_Mesh
@@ -795,7 +793,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.5
+      value: 24.88131
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.y
@@ -803,7 +801,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 27.38
+      value: 13.911449
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1233,7 +1231,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1090439333}
     m_Modifications:
     - target: {fileID: 578812310734390594, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_Mesh
@@ -1245,7 +1243,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.1
+      value: 11.28131
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1253,7 +1251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.23
+      value: -4.23855
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1900,7 +1898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e7d4f398050cc4ca6a5476af3a543b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NextLevelTrigger
-  sceneName: 
+  sceneName: lvl_7_forest
 --- !u!65 &327922801
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1920,8 +1918,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 3.9683769, z: 1}
+  m_Center: {x: 0, y: 1.4841886, z: 0}
 --- !u!23 &327922802
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1988,7 +1986,7 @@ Transform:
   m_GameObject: {fileID: 327922799}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.58, y: 0.024, z: 57.9}
+  m_LocalPosition: {x: 19.58, y: 0.022, z: 57.9}
   m_LocalScale: {x: 1, y: 0.055142, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2091,8 +2089,6 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
-  jitterSound: {fileID: 0}
-  jitterSoundVolume: 1
 --- !u!4 &359946435 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 995089265909935910, guid: 9477727aeac1cf84e95c8faa04d79303, type: 3}
@@ -3039,8 +3035,6 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
-  jitterSound: {fileID: 0}
-  jitterSoundVolume: 1
 --- !u!4 &531814545 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 995089265909935910, guid: 9477727aeac1cf84e95c8faa04d79303, type: 3}
@@ -3666,8 +3660,6 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
-  jitterSound: {fileID: 0}
-  jitterSoundVolume: 1
 --- !u!4 &708328441 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 995089265909935910, guid: 9477727aeac1cf84e95c8faa04d79303, type: 3}
@@ -4031,7 +4023,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1090439333}
     m_Modifications:
     - target: {fileID: 578812310734390594, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_Mesh
@@ -4043,7 +4035,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.5
+      value: 24.88131
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4051,7 +4043,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.23
+      value: -4.23855
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4237,7 +4229,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 6b362435f141ca84bad184fd61283873, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.316
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -4443,7 +4435,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1090439333}
     m_Modifications:
     - target: {fileID: 578812310734390594, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_Mesh
@@ -4455,7 +4447,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.1
+      value: 11.28131
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4463,7 +4455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 48.61
+      value: 35.14145
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4519,7 +4511,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1090439333}
     m_Modifications:
     - target: {fileID: 578812310734390594, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_Mesh
@@ -4531,7 +4523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.5
+      value: 24.88131
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4539,7 +4531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 48.61
+      value: 35.14145
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6178,6 +6170,44 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1078049487}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1090439332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1090439333}
+  m_Layer: 0
+  m_Name: Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1090439333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090439332}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.38131, y: -0, z: 13.46855}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1985652011}
+  - {fileID: 1477292214}
+  - {fileID: 1733587277}
+  - {fileID: 993810285}
+  - {fileID: 1971050326}
+  - {fileID: 1723266736}
+  - {fileID: 662312717}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1100779724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6386,8 +6416,6 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
-  jitterSound: {fileID: 0}
-  jitterSoundVolume: 1
 --- !u!4 &1122209266 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8884498055708056954, guid: 784e980c1cf96344d9d04f01e2618d6b, type: 3}
@@ -6714,7 +6742,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.400001
+      value: 15.9
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6722,7 +6750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.553693
+      value: 54.5
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7040,8 +7068,6 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
-  jitterSound: {fileID: 0}
-  jitterSoundVolume: 1
 --- !u!4 &1257444352 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 801088535811909204, guid: 9334802947a112d489eb0ad702ab585a, type: 3}
@@ -7432,8 +7458,6 @@ MonoBehaviour:
   jitterDuration: 0.2
   jitterSpeed: 20
   jitterAmount: 0.2
-  jitterSound: {fileID: 0}
-  jitterSoundVolume: 1
 --- !u!65 &1308501606
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7620,7 +7644,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1090439333}
     m_Modifications:
     - target: {fileID: 578812310734390594, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_Mesh
@@ -7632,7 +7656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.1
+      value: 11.28131
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7640,7 +7664,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 27.38
+      value: 13.911449
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7906,7 +7930,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.400001
+      value: 15.9
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7914,7 +7938,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.553693
+      value: 54.5
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7983,7 +8007,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1090439333}
     m_Modifications:
     - target: {fileID: 578812310734390594, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_Mesh
@@ -7994,8 +8018,16 @@ PrefabInstance:
       value: 2862
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.67296004
+      objectReference: {fileID: 0}
+    - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.67296004
+      objectReference: {fileID: 0}
+    - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.01
+      value: 3.3713102
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8003,7 +8035,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.59
+      value: -6.8785496
       objectReference: {fileID: 0}
     - target: {fileID: 2426874408681009933, guid: 8446163554596f249967fb42eb417510, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8518,8 +8550,6 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
-  jitterSound: {fileID: 0}
-  jitterSoundVolume: 1
 --- !u!4 &1494346961 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 801088535811909204, guid: 9334802947a112d489eb0ad702ab585a, type: 3}
@@ -9180,8 +9210,6 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
-  jitterSound: {fileID: 0}
-  jitterSoundVolume: 1
 --- !u!4 &1614070668 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 801088535811909204, guid: 9334802947a112d489eb0ad702ab585a, type: 3}
@@ -9785,8 +9813,6 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
-  jitterSound: {fileID: 0}
-  jitterSoundVolume: 1
 --- !u!4 &1742873414 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8884498055708056954, guid: 784e980c1cf96344d9d04f01e2618d6b, type: 3}
@@ -9948,7 +9974,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.6
+      value: 15.7
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9956,7 +9982,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.9
+      value: 58.5
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10444,8 +10470,6 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
-  jitterSound: {fileID: 0}
-  jitterSoundVolume: 1
 --- !u!4 &1800120462 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 995089265909935910, guid: 9477727aeac1cf84e95c8faa04d79303, type: 3}
@@ -10800,56 +10824,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 794ca9ac3e34a6c42bd845432f87cd68, type: 3}
---- !u!1 &1831208137
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1831208139}
-  - component: {fileID: 1831208140}
-  m_Layer: 0
-  m_Name: EF
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1831208139
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831208137}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.5, y: 4.57965, z: 48.46}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1831208140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831208137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b691c0a4365bf604780562435456b753, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::JitterObject
-  cooldownTime: 5
-  jitterDuration: 0.5
-  jitterSpeed: 50
-  jitterAmount: 0.1
-  jitterSound: {fileID: 8300000, guid: 0764170ca8f302b42ac43b3b8cfebffd, type: 3}
-  jitterSoundVolume: 0.1
 --- !u!1 &1841797616 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6609989364383139594, guid: 170303b77f7cf7b499262e592a3670de, type: 3}
@@ -11424,8 +11398,6 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
-  jitterSound: {fileID: 0}
-  jitterSoundVolume: 1
 --- !u!4 &2029959912 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 801088535811909204, guid: 9334802947a112d489eb0ad702ab585a, type: 3}
@@ -12085,8 +12057,6 @@ MonoBehaviour:
   jitterDuration: 0.1
   jitterSpeed: 50
   jitterAmount: 0.1
-  jitterSound: {fileID: 0}
-  jitterSoundVolume: 1
 --- !u!4 &2141651352 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8884498055708056954, guid: 784e980c1cf96344d9d04f01e2618d6b, type: 3}
@@ -12510,12 +12480,5 @@ SceneRoots:
   - {fileID: 528691446}
   - {fileID: 327922804}
   - {fileID: 1783870980}
-  - {fileID: 1416764675}
-  - {fileID: 237807409}
-  - {fileID: 756452047}
-  - {fileID: 1348756449}
-  - {fileID: 159023048}
-  - {fileID: 835869037}
-  - {fileID: 837393614}
   - {fileID: 782254151}
-  - {fileID: 1831208139}
+  - {fileID: 1090439333}
