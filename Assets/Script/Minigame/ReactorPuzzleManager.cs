@@ -15,6 +15,8 @@ public class ReactorPuzzleManager : MonoBehaviour
             currentStep++;
             Debug.Log("กดถูกลำดับ! ขั้นถัดไป: " + currentStep);
 
+            QuestUIManager.Instance.UpdateButtons(currentStep);
+
             if (currentStep >= totalButtons)
             {
                 isPuzzleComplete = true;
@@ -31,6 +33,8 @@ public class ReactorPuzzleManager : MonoBehaviour
     void ResetPuzzle()
     {
         currentStep = 0;
+        QuestUIManager.Instance.UpdateButtons(currentStep);
+
         // สั่งให้ทุกปุ่มในฉากรีเซ็ตตัวเอง
         ReactorButton[] buttons = FindObjectsByType<ReactorButton>(FindObjectsSortMode.None);
         foreach (ReactorButton b in buttons)

@@ -13,6 +13,8 @@ public class AuditionMinigame : MonoBehaviour
     public Text arrowText;
     public Slider timerSlider;
 
+    public MeshRenderer reactorRenderer;
+
     [Header("Round Settings")]
     public float timeLimit = 4f;
     public int sequenceLength = 5;
@@ -171,6 +173,14 @@ public class AuditionMinigame : MonoBehaviour
     {
         isPlaying = false;
         IsCompleted = true;
+
+        QuestUIManager.Instance.CompleteGenerator();
+
+        if (reactorRenderer != null)
+        {
+            reactorRenderer.material.color = Color.green;
+        }
+
         Debug.Log("Audition minigame complete.");
         gameObject.SetActive(false);
     }
