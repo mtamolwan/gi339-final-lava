@@ -14,11 +14,18 @@ public class BreakerSkillCheck : MonoBehaviour
     [Header("💥 แสงสีเสียง")]
     public GameObject explosionVFX; 
     public AudioClip explosionSound; 
-    public AudioClip successSound; // 🌟 เพิ่มช่องใส่เสียงซ่อมเสร็จ
+    public AudioClip successSound; // เสียงตอนซ่อมเสร็จทั้งหมด
+    
+    [Header("✨ เพิ่มใหม่: เสียงตอนกดถูกจังหวะ!")]
+    public AudioClip hitTargetSound; 
+
     private AudioSource audioSource; 
 
     [Header("เอฟเฟคไกด์นำทาง")]
     public GameObject sparkEffect; 
+    
+    [Header("✨ เพิ่มใหม่: ลาก Canvas ปุ่ม E มาใส่ตรงนี้")]
+    public GameObject interactionPrompt; // ปุ่ม E หน้าตู้
 
     public bool isFixed = false; 
 
@@ -49,6 +56,7 @@ public class BreakerSkillCheck : MonoBehaviour
     {
         if (minigameUI != null) minigameUI.SetActive(false);
         if (minigameCamera != null) minigameCamera.SetActive(false);
+        if (interactionPrompt != null) interactionPrompt.SetActive(false); // ซ่อนปุ่ม E ไว้ก่อนตอนเริ่มเกม
         
         containerWidth = containerRect.rect.width;
         targetZoneWidth = targetZoneRect.rect.width;
@@ -92,6 +100,9 @@ public class BreakerSkillCheck : MonoBehaviour
         minigameUI.SetActive(true); 
         currentSuccesses = 0;
         
+        // ✨ ซ่อนปุ่ม E หน้าตู้ทันทีที่เริ่มเล่นมินิเกม
+        if (interactionPrompt != null) interactionPrompt.SetActive(false);
+        
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
@@ -114,6 +125,13 @@ public class BreakerSkillCheck : MonoBehaviour
         if (handX >= targetMin && handX <= targetMax)
         {
             currentSuccesses++;
+            
+            // ✨ เล่นเสียง "ถูกต้อง!" ตอนกดโดนเป้า
+            if (hitTargetSound != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(hitTargetSound);
+            }
+
             RandomizeTargetZone();
             if (currentSuccesses >= requiredSuccesses) CompleteRepair();
         }
@@ -173,7 +191,6 @@ public class BreakerSkillCheck : MonoBehaviour
         if (playerInput != null) playerInput.enabled = true; 
         if (sparkEffect != null) sparkEffect.SetActive(false); 
 
-        // 🌟 เล่นเสียงตอนซ่อมสำเร็จ!
         if (successSound != null && audioSource != null)
         {
             audioSource.PlayOneShot(successSound);
@@ -200,6 +217,9 @@ public class BreakerSkillCheck : MonoBehaviour
         {
             playerInZone = true;
             playerController = other.GetComponent<CharacterController>(); 
+            
+            // ✨ โชว์ปุ่ม E เวลาเดินเข้ามาใกล้
+            if (interactionPrompt != null) interactionPrompt.SetActive(true);
         }
     }
 
@@ -208,6 +228,10 @@ public class BreakerSkillCheck : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInZone = false;
+            
+            // ✨ ซ่อนปุ่ม E เวลาเดินหนีไป (หรือเวลากระเด็น)
+            if (interactionPrompt != null) interactionPrompt.SetActive(false);
+            
             if (isGameActive)
             {
                 isGameActive = false;

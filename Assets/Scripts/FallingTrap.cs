@@ -30,6 +30,6 @@ public class FallingTrap : MonoBehaviour
         yield return new WaitForSeconds(fallDelay);
         rb.isKinematic = false; 
         rb.linearVelocity = new Vector3(0, -20f, 0);
-        Destroy(gameObject, 3f); 
+        Destroy(gameObject, 1f); 
     }
 }
