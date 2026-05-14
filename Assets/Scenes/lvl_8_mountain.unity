@@ -8480,7 +8480,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AuditionMinigame
   arrowText: {fileID: 1670446552}
   timerSlider: {fileID: 262169854}
-  reactorRenderer: {fileID: 0}
+  reactorRenderer: {fileID: 1247540226}
   timeLimit: 4
   sequenceLength: 5
   totalRounds: 3
