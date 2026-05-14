@@ -11,22 +11,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/lvl_2_toilet.unity
     guid: 3d2e83b55d2473544a06cec03ee4bd0e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/lvl_3_kitchen.unity
     guid: 2e1b6991ba40ac9438aa5591f37a3dc0
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/lvl_4_livingroom.unity
     guid: 2246aeeb1e101934eae699e42cd1758f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/lvl_5_yard.unity
     guid: 3d2ad2c91bc036b4799ade684e23f91b
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/lvl_6_city.unity
     guid: c5bff835f9f85f149afa34cf90660505
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/lvl_7_forest.unity
     guid: 161aac8330a9b0145aebdbf68c94f32a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/lvl_8_mountain.unity
     guid: 2cd105626c50b644a9df87e3d0a5ec4a
   m_configObjects:
