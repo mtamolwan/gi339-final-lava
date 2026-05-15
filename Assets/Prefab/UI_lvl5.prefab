@@ -169,8 +169,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Level 5 Yard
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c0b7e379f0480a2449d6db682fa64c20, type: 2}
-  m_sharedMaterial: {fileID: 4379618140746666415, guid: c0b7e379f0480a2449d6db682fa64c20, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 188c78905e64bdc40a418cfbb73680a3, type: 2}
+  m_sharedMaterial: {fileID: -2674061945951067888, guid: 188c78905e64bdc40a418cfbb73680a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

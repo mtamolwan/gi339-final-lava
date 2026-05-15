@@ -4738,8 +4738,8 @@ MonoBehaviour:
 
     Find the exit'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c0b7e379f0480a2449d6db682fa64c20, type: 2}
-  m_sharedMaterial: {fileID: 4379618140746666415, guid: c0b7e379f0480a2449d6db682fa64c20, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 188c78905e64bdc40a418cfbb73680a3, type: 2}
+  m_sharedMaterial: {fileID: -2674061945951067888, guid: 188c78905e64bdc40a418cfbb73680a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14071,6 +14071,18 @@ PrefabInstance:
     - target: {fileID: 5390697348659806688, guid: b13a038282b219845beb94a8ed57f458, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6848652118373586929, guid: b13a038282b219845beb94a8ed57f458, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 188c78905e64bdc40a418cfbb73680a3, type: 2}
+    - target: {fileID: 6848652118373586929, guid: b13a038282b219845beb94a8ed57f458, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2674061945951067888, guid: 188c78905e64bdc40a418cfbb73680a3, type: 2}
+    - target: {fileID: 6848652118373586929, guid: b13a038282b219845beb94a8ed57f458, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8071462216335746186, guid: b13a038282b219845beb94a8ed57f458, type: 3}
       propertyPath: m_Pivot.x
