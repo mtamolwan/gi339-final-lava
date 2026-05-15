@@ -5116,27 +5116,27 @@ PrefabInstance:
       objectReference: {fileID: 1172568382}
     - target: {fileID: 3377440670502328786, guid: 0576447f9acd8ff498ec3958f6f748e3, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2976346
+      value: 1.0767667
       objectReference: {fileID: 0}
     - target: {fileID: 3377440670502328786, guid: 0576447f9acd8ff498ec3958f6f748e3, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.2976347
+      value: 1.0767668
       objectReference: {fileID: 0}
     - target: {fileID: 3377440670502328786, guid: 0576447f9acd8ff498ec3958f6f748e3, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.2976346
+      value: 1.0767667
       objectReference: {fileID: 0}
     - target: {fileID: 3377440670502328786, guid: 0576447f9acd8ff498ec3958f6f748e3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.71460056
+      value: -0.84235
       objectReference: {fileID: 0}
     - target: {fileID: 3377440670502328786, guid: 0576447f9acd8ff498ec3958f6f748e3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.4
+      value: 11.41
       objectReference: {fileID: 0}
     - target: {fileID: 3377440670502328786, guid: 0576447f9acd8ff498ec3958f6f748e3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -30.98074
+      value: -30.815
       objectReference: {fileID: 0}
     - target: {fileID: 3377440670502328786, guid: 0576447f9acd8ff498ec3958f6f748e3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11960,7 +11960,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: b2d87dbfe0843fb47824dbb0b0031859, type: 3}
     m_FontSize: 88
     m_FontStyle: 0
     m_BestFit: 0
