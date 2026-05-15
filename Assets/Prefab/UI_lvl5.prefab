@@ -167,7 +167,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Level 3 Kitchen
+  m_text: Level 5 Yard
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c0b7e379f0480a2449d6db682fa64c20, type: 2}
   m_sharedMaterial: {fileID: 4379618140746666415, guid: c0b7e379f0480a2449d6db682fa64c20, type: 2}
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -856.32947, y: -49.128662, z: 567.72815, w: -34.163513}
+  m_margin: {x: -856.32947, y: -49.128662, z: 602.63275, w: -34.163513}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

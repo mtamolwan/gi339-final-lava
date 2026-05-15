@@ -12887,6 +12887,107 @@ Transform:
   m_Children: []
   m_Father: {fileID: 856541801}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1345182307
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5390697348659806688, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_Name
+      value: UI_lvl1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6848652118373586929, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_text
+      value: Level 1 Bedroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071462216335746186, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071462216335746186, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071462216335746186, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071462216335746186, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071462216335746186, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071462216335746186, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071462216335746186, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071462216335746186, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071462216335746186, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071462216335746186, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071462216335746186, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071462216335746186, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071462216335746186, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071462216335746186, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071462216335746186, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071462216335746186, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071462216335746186, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071462216335746186, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071462216335746186, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071462216335746186, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 61e78a1b77c6ceb4caa41551d4d1e94d, type: 3}
 --- !u!1001 &1361932842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22597,7 +22698,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 100, y: -25}
+  m_AnchoredPosition: {x: 147, y: 374.75}
   m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &2138279592
@@ -22620,10 +22721,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Goal : Get to the restroom and fix the lights.'
+  m_text: Get to the bathroom and fix the lights.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c0b7e379f0480a2449d6db682fa64c20, type: 2}
+  m_sharedMaterial: {fileID: 4379618140746666415, guid: c0b7e379f0480a2449d6db682fa64c20, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22654,7 +22755,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -22686,7 +22787,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 192.03647, y: 0, z: 26.628456, w: 23.654682}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -23088,3 +23189,4 @@ SceneRoots:
   - {fileID: 1023364740}
   - {fileID: 633164899}
   - {fileID: 144273510}
+  - {fileID: 1345182307}
