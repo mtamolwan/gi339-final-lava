@@ -4111,8 +4111,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c0b7e379f0480a2449d6db682fa64c20, type: 2}
-  m_sharedMaterial: {fileID: 4379618140746666415, guid: c0b7e379f0480a2449d6db682fa64c20, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 188c78905e64bdc40a418cfbb73680a3, type: 2}
+  m_sharedMaterial: {fileID: -2674061945951067888, guid: 188c78905e64bdc40a418cfbb73680a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5116,27 +5116,27 @@ PrefabInstance:
       objectReference: {fileID: 1172568382}
     - target: {fileID: 3377440670502328786, guid: 0576447f9acd8ff498ec3958f6f748e3, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2976346
+      value: 1.0767667
       objectReference: {fileID: 0}
     - target: {fileID: 3377440670502328786, guid: 0576447f9acd8ff498ec3958f6f748e3, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.2976347
+      value: 1.0767668
       objectReference: {fileID: 0}
     - target: {fileID: 3377440670502328786, guid: 0576447f9acd8ff498ec3958f6f748e3, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.2976346
+      value: 1.0767667
       objectReference: {fileID: 0}
     - target: {fileID: 3377440670502328786, guid: 0576447f9acd8ff498ec3958f6f748e3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.71460056
+      value: -0.84235
       objectReference: {fileID: 0}
     - target: {fileID: 3377440670502328786, guid: 0576447f9acd8ff498ec3958f6f748e3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.4
+      value: 11.41
       objectReference: {fileID: 0}
     - target: {fileID: 3377440670502328786, guid: 0576447f9acd8ff498ec3958f6f748e3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -30.98074
+      value: -30.815
       objectReference: {fileID: 0}
     - target: {fileID: 3377440670502328786, guid: 0576447f9acd8ff498ec3958f6f748e3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5235,6 +5235,10 @@ PrefabInstance:
     - target: {fileID: 1992104595683069851, guid: f0271df749728104eac22c3d897fd8ce, type: 3}
       propertyPath: m_Name
       value: UI_EventSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992104595683069851, guid: f0271df749728104eac22c3d897fd8ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8063073397250431797, guid: f0271df749728104eac22c3d897fd8ce, type: 3}
       propertyPath: m_RootOrder
@@ -7605,7 +7609,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: End Game
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c0b7e379f0480a2449d6db682fa64c20, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 188c78905e64bdc40a418cfbb73680a3, type: 2}
   m_sharedMaterial: {fileID: 4379618140746666415, guid: c0b7e379f0480a2449d6db682fa64c20, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -7672,7 +7676,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1109275771
@@ -9956,7 +9960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.4430895, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.4430895, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -11956,7 +11960,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: b2d87dbfe0843fb47824dbb0b0031859, type: 3}
     m_FontSize: 88
     m_FontStyle: 0
     m_BestFit: 0
